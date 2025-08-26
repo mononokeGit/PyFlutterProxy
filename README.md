@@ -7,17 +7,7 @@
 
 ## 使用方法
 
-### 1. 直接运行可执行文件（推荐）
-
-无需安装 Python 环境，直接双击或命令行运行：
-
-```shell
-./setup_flutter_proxy.dist/setup_flutter_proxy.exe
-```
-
-### 2. 使用 Python 脚本运行
-
-如需自定义或调试，可在已安装 `requests` 和 `tqdm` 的 Python 3.8+ 环境下运行：
+如需自定义或调试，可在已安装 `requests` 和 `tqdm` 的 Python 3.8+ 环境下，将python文件放在flutter项目的根目录下运行：
 
 ```shell
 python setup_flutter_proxy.py
